@@ -1,7 +1,7 @@
 
 # 🌾 GrainPalette – A Deep Learning Odyssey in Rice Type Classification
 
-![Banner](https://github.com/Deepak3460/GrainPalette/assets/Grain_Palette_Banner.png)
+![Banner](https://github.com/Deepak3460/GrainPalette---A-Deep-Learning-Odyssey-In-Rice-Type-Classification-Through-Transfer-Learning/blob/main/Grain_Palette_Banner.jpg)
 
 GrainPalette is a deep learning-based web application that classifies rice grains into five distinct types using transfer learning with MobileNetV2. Built using Flask, it empowers farmers and researchers to identify rice varieties easily using just an image.
 
@@ -34,10 +34,19 @@ GrainPalette is a deep learning-based web application that classifies rice grain
 
 ---
 
-## 🎥 Video Demo
+## 📥 Download Pre-trained Model
 
-Watch the working of the system here:  
-📺 [GrainPalette Demo Video](https://drive.google.com/file/d/1r07Z-ClwSn3gmBgrT5jSXUjuGxS-1EOO/view?usp=sharing)
+> **Note:** GitHub limits file size to 100MB.  
+> Download the trained model (`rice_model.h5`) from:
+
+📦 [Download rice_model.h5 (Google Drive)](https://drive.google.com/file/d/1r07Z-ClwSn3gmBgrT5jSXUjuGxS-1EOO/view?usp=sharing)
+
+---
+
+## 📽️ Demo
+
+🎥 **Video Preview:**  
+_A short demonstration is available in the "Video Demo" folder._
 
 ---
 
@@ -80,6 +89,7 @@ GrainPalette/
 ├── templates/
 │   ├── index.html
 │   ├── result.html
+|   ├── details.html
 ├── dataset/
 │   ├── Train/
 │   └── Validation/
@@ -93,7 +103,7 @@ GrainPalette/
 ## ✨ Credits
 
 - **Project Author:** Harika Devi
-- **Model Trainer & UI Designer:** Harika Devi
+- **Model Trainer & UI Designer:** Deepak
 - **Banner Design:** GitHub user [Deepak3460](https://github.com/Deepak3460)
 - **Dataset Source:** [Murat Köklü – Kaggle](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
 
